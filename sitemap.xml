@@ -1,9 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Main landing page (canonical version - decide www or non-www) -->
   <url>
     <loc>https://www.ginglesky.com/</loc>
-    <lastmod>2026-01-31</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2025-01-31</lastmod>           <!-- update to today's or last real update date -->
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- If you have non-www version active, include it too (but preferably 301 redirect to www) -->
+  <!--
+  <url>
+    <loc>https://ginglesky.com/</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  -->
+
+  <!-- Anchor sections are usually NOT listed separately in sitemap -->
+  <!-- Only real separate HTML pages or important routes go here -->
+
+  <!-- Footer / legal pages -->
+  <url>
+    <loc>https://www.ginglesky.com/blog</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ginglesky.com/careers</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ginglesky.com/privacy</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ginglesky.com/terms</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <url>
+    <loc>https://www.ginglesky.com/cookies</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Self-referencing sitemap (optional but good practice) -->
+  <url>
+    <loc>https://www.ginglesky.com/sitemap</loc>
+    <lastmod>2025-01-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>
